@@ -1,0 +1,13 @@
+{
+  "name": "Help overlay",
+  "entry": "register",
+  "resolveAlias": "helpOverlay",
+  "author": "Florian Biewald",
+  "canvasViews": ["components/HelpOverlayButton"],
+  "routes": [
+    {
+      "path": "help-overlay",
+      "handler": "components/HelpOverlay"
+    }
+  ]
+}
